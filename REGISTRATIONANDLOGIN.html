@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>registration and login</title>
+    <style>
+        body {
+            margin: 0%;
+            
+        }
+
+
+        #header {
+            background-color: blueviolet;
+            padding: 0.7cm;
+
+            color: black;
+            text-align: center;
+
+        }
+
+        #footer {
+
+            background-color: black;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            position: relative;
+
+
+        }
+
+        .register {
+            text-align: center;
+            height: 10cm;
+            background-color: wheat;
+        }
+
+        .signin {
+            text-align: center;
+            background-color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div id="header">
+            <h1 style="font-family: cursive;">Welcome to my Registration Page</h1>
+        </div>
+        <div class="register">
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required minlength="8">
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required
+                minlength="8">
+            <hr><br>
+
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+        <div class="signin">
+            <p>Already have an account? <a href="signin.html">Sign in</a>.</p>
+        </div>
+
+    </form>
+    <div id="footer">
+
+        <div>
+            <p>Facebook Instagam Youtube</p>
+            <p>all the rights are reserved by shashank.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus dignissimos mollitia minima nostrum
+                omnis et dolore a voluptates beatae quos saepe eveniet sunt officiis fugit, dolor fugiat praesentium rem
+                iure reiciendis ipsam nemo alias. Esse repellendus non officiis id ducimus.</p>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
