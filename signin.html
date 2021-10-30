@@ -11,15 +11,20 @@
             margin: 0%;
         }
         #header {
-            background-color: blueviolet;
+            background-color: darkred;
             padding: 0.7cm;
+            border-top: black solid 2px;
+            border-bottom: black solid 2px;
 
-            color: black;
+            color: white;
             text-align: center;
 
         }
         #signin {
             background-color: wheat;
+            text-align: center;
+            margin-top: 0;
+            padding-top: 0.1cm;
         }
         #footer {
 
@@ -44,12 +49,12 @@
         <div id="signin">
             <hr><br>
             <h1>SIGN IN</h1><br>
-            <p>Enter your login details</p><br>
+            <p>Enter your login details and start ordering</p><br>
             <label for="EMAIL"><b>Enter email</b></label><br>
             <input type="text" placeholder="Enter registered email" required minlength="3"/><br>
             <label for="password"><b>Password</b></label><br>
             <input type="password" placeholder="enter password" name="password" id="password" required minlength="8"/><br>
-            <hr><br>
+            
             <p>click to login</p>
             <button type="submit" class="loginbtn">login</button>
             <hr><br>
